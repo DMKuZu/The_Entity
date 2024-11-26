@@ -8,8 +8,8 @@ import game.Game;
 import static game.WhichScene.*;
 
 public class _12_Message extends Event {
-    private boolean hasWon;
-    private Blessing_Gacha REWARD;
+    private final boolean hasWon;
+    private final Blessing_Gacha REWARD;
 
     public _12_Message(Hero HERO, boolean hasWon, int currWorld ,int currEncounter,Blessing_Gacha REWARD, Game GAME){
         super(HERO,currWorld,currEncounter,GAME);
