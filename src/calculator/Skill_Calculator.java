@@ -11,6 +11,7 @@ public class Skill_Calculator {
         double rawDamage = baseDmg + ((baseDmg/100.0) * sourceAtk);
 
         double damageAfterDefense = Math.max(rawDamage - destDef, 0);
+        if(baseDmg == 0) damageAfterDefense = 0.0;
 
         double critMultiplier;
         if(Math.random() <= sourceCritChance){
@@ -26,7 +27,7 @@ public class Skill_Calculator {
 
         double finalDamage = damageAfterDefense * critMultiplier;
 
-        return (int) Math.round(finalDamage);
+        return (int) finalDamage;
     }
 
 }

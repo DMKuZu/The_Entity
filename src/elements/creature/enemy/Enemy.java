@@ -17,9 +17,9 @@ public abstract class Enemy extends Creature implements Azrueian_Enemies, Saroia
     protected Enemy(Hero hero,double hp,double atk,double def,double dodge, double crit){
         super();
         this.HERO = hero;
-        int HP = (int) Math.min(hero.getSTATS().getHP() * hp,500);
-        int ATK = (int) Math.min(hero.getSTATS().getATK() * atk,500);
-        int DEF = (int) Math.min(hero.getSTATS().getDEF() * def,500);
+        int HP = (int) Math.min(hero.getSTATS().getHP() * hp,1000);
+        int ATK = (int) Math.min(hero.getSTATS().getATK() * atk,200);
+        int DEF = (int) Math.min(hero.getSTATS().getDEF() * def,100);
 
         STATS = new Stats(HP,ATK,DEF,dodge,crit);
         CURRSTATS = new Stats(HP,ATK,DEF,dodge,crit);

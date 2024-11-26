@@ -14,7 +14,7 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
     private final String whichHero;
 
     public Boss_Enemy(Hero hero, int currWorld){
-        super(hero,1.1,2.4,0.6,0.5,0.4);
+        super(hero,1.1,2.4,0.6,0.05,0.04);
 
         SKILLS = new ArrayList<>(5);
         this.whichHero = hero.getNAME();

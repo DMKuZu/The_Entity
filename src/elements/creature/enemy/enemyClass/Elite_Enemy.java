@@ -13,7 +13,7 @@ public class Elite_Enemy extends Enemy {
     private final int currWorld;
 
     public Elite_Enemy(Hero hero, int currWorld, int currEncounter){
-        super(hero,0.9,2.2,0.5,0.4,0.3);
+        super(hero,0.9,2.2,0.5,0.04,0.03);
         this.currWorld = currWorld;
 
         switch (hero.getNAME()){

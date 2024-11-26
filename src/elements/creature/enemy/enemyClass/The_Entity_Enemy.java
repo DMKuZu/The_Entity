@@ -14,7 +14,7 @@ import static elements.creature.value.Effects.*;
 public class The_Entity_Enemy extends Enemy {
 
     public The_Entity_Enemy(Hero hero){
-        super(hero,1.3,2.4,0.7,0.6,0.5);
+        super(hero,1.3,2.4,0.7,0.06,0.05);
 
         NAME = "The Entity";
         SKILLS = new ArrayList<>(Arrays.asList(

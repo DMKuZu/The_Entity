@@ -35,8 +35,8 @@ public interface Hero_Skills {
     List<Skills> Supa_Skills = Arrays.asList(
             new Skills("Reality Warp",10,1,NONE),
             new Skills("Dimensional Shift",15,9,NONE),
-            new Skills("Entropy Wave",20,7,NONE),
-            new Skills("Void Embrace",0,5,NONE),
+            new Skills("Entropy Wave",0,30,NONE),
+            new Skills("Void Embrace",20,5,NONE),
             new Skills("Ultimate Erasure",30,3,NONE)
     );
 }

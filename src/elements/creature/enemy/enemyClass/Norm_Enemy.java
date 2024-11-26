@@ -13,7 +13,7 @@ public class Norm_Enemy extends Enemy {
     private final int currWorld;
 
     public Norm_Enemy(Hero hero, int currWorld, int currEncounter){
-        super(hero,0.7,2.0,0.4,0.3,0.2);
+        super(hero,0.7,2.0,0.4,0.03,0.02);
         this.currWorld = currWorld;
 
         SKILLS = new ArrayList<>(3);

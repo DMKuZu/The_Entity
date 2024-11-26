@@ -154,49 +154,40 @@ public class _11_Scenario extends Event {
 
     @Override
     public void onInputReceived(String input) {
-        switch (input.toLowerCase()) {
-            case "back":
-            case "":
-                GAME.nextEncounter();
-                switch (currEncounter+1){
-                    case 1:
-                        System.out.println("Going to next _1_Norm...");
-                        GAME.nextScene(EVENT1);
-                        break;
-                    case 2:
-                        System.out.println("Going to next _2_Norm...");
-                        GAME.nextScene(EVENT2);
-                        break;
-                    case 3:
-                        System.out.println("Going to next _3_Elite...");
-                        GAME.nextScene(EVENT3);
-                        break;
-                    case 4:
-                        System.out.println("Going to next _4_Norm...");
-                        GAME.nextScene(EVENT4);
-                        break;
-                    case 5:
-                        System.out.println("Going to next _5_Norm...");
-                        GAME.nextScene(EVENT5);
-                        break;
-                    case 6:
-                        System.out.println("Going to next _6_Choose...");
-                        GAME.nextScene(EVENT6);
-                        break;
-                    case 7:
-                        System.out.println("Going to next _7_Rest...");
-                        GAME.nextScene(EVENT7);
-                        break;
-                    case 8:
-                        System.out.println("Going to next _8_Boss...");
-                        GAME.nextScene(EVENT8);
-                        break;
-                }
+        GAME.nextEncounter();
+        switch (currEncounter+1){
+            case 1:
+                System.out.println("Going to next _1_Norm...");
+                GAME.nextScene(EVENT1);
                 break;
-            default:
-                System.out.println("Invalid input: " + input);
+            case 2:
+                System.out.println("Going to next _2_Norm...");
+                GAME.nextScene(EVENT2);
+                break;
+            case 3:
+                System.out.println("Going to next _3_Elite...");
+                GAME.nextScene(EVENT3);
+                break;
+            case 4:
+                System.out.println("Going to next _4_Norm...");
+                GAME.nextScene(EVENT4);
+                break;
+            case 5:
+                System.out.println("Going to next _5_Norm...");
+                GAME.nextScene(EVENT5);
+                break;
+            case 6:
+                System.out.println("Going to next _6_Choose...");
+                GAME.nextScene(EVENT6);
+                break;
+            case 7:
+                System.out.println("Going to next _7_Rest...");
+                GAME.nextScene(EVENT7);
+                break;
+            case 8:
+                System.out.println("Going to next _8_Boss...");
+                GAME.nextScene(EVENT8);
                 break;
         }
-
     }
 }

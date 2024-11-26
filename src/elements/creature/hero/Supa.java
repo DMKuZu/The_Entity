@@ -14,9 +14,9 @@ public class Supa extends Hero {
 
     public Supa(){
         super();
-        this.NAME = "SupaIdolSirKhaiGumonan";
-        this.STATS = new Stats(10,69,-420,1.0,0.5);
-        this.CURRSTATS = new Stats(10,69,-420,1.0,0.5);
+        this.NAME = "SupaIdolSkibidiGyattSirKhaiCenat";
+        this.STATS = new Stats(10000,69,420,-1.0,0.5);
+        this.CURRSTATS = new Stats(10000,69,420,-1.0,0.5);
         this.SKILLS = new ArrayList<>(Supa_Skills);
 
         for(Skills skill: SKILLS){
@@ -30,7 +30,7 @@ public class Supa extends Hero {
     @Override
     public String skillDesc() {
 
-
+        //i might put effects here, basta isetup lang na ang 3rd skill kay no damage
         //gitapul jud ko legit
 
         return String.format(

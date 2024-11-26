@@ -6,7 +6,7 @@ import elements.creature.Creature;
 public class Status {
     private final Effects effect;
     private int turns;
-    private final int value;
+    private int value;
 
     private boolean isUsed;
     private Creature creature;
@@ -106,7 +106,10 @@ public class Status {
     private void enshroud() {
         if (!isUsed) {
             double currDODGE = creature.getCURRSTATS().getDODGE();
-            creature.getCURRSTATS().setDODGE(Math.min(currDODGE + (value / 100.0), 0.8));
+            creature.getCURRSTATS().setDODGE(Math.min(currDODGE + (value / 100.0), 0.80));
+            if(currDODGE + (value / 100.0) > 0.8){
+                value = (int)(0.8 - currDODGE)*100;
+            }
             this.isUsed = true;
         }
     }
