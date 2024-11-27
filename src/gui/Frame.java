@@ -19,7 +19,7 @@ public class Frame extends JFrame {
         this.setTitle("The Entity");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new GridBagLayout());
-        this.setMinimumSize(new Dimension(2000,1000));
+        this.setMinimumSize(new Dimension(1366,768));
         this.setLocationRelativeTo(null);
 
         GridBagConstraints gbc = new GridBagConstraints();
@@ -33,7 +33,7 @@ public class Frame extends JFrame {
         INPUT = new Input_Panel(gbc);
         this.add(INPUT,gbc);
 
-        this.getContentPane().setBackground(new Color(0x511C88));
+        this.getContentPane().setBackground(new Color(0x180121));
         this.setVisible(true);
     }
 

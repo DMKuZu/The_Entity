@@ -30,7 +30,7 @@ public class Status {
     public String toString(){
         return String.format(
                 """
-                %s  ->  %d turn/s left
+                %s  ──>  %d turn/s left
                 """,
                 effect,turns
         );

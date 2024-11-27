@@ -31,15 +31,15 @@ public class Radea extends Hero {
     public String skillDesc() {
         return String.format(
                 """
-                > %s  ->  Deals damage and has unlimited uses.
+                >> %s\t──>\tDeals damage and has unlimited uses.
                 
-                > %s  ->  Deals damage and applies WEAKEN to enemy for 2 turns.       -> %d | %d
+                >> %s\t──>\tDeals damage and applies WEAKEN to enemy for 2 turns.       ──>\t %d │ %d
                 
-                > %s  ->  Applies FORTIFY to self for 4 turns.                        -> %d | %d
+                >> %s\t──>\tApplies FORTIFY to self for 4 turns.                        ──>\t  %d │ %d
                 
-                > %s  ->  Deals damage and applies FRAIL to enemy for 3 turns.        -> %d | %d
+                >> %s\t──>\tDeals damage and applies FRAIL to enemy for 3 turns.        ──>\t %d │ %d
 
-                > %s  ->  Deals damage and applies INFLICTION to enemy for 3 turns.   -> %d | %d
+                >> %s\t──>\tDeals damage and applies INFLICTION to enemy for 3 turns.   ──>\t  %d │ %d
                 """,
                 SKILLS.get(0).getName(),
                 SKILLS.get(1).getName(),getCURR_USES(2),getTOTAL_USES(2),
@@ -59,7 +59,7 @@ public class Radea extends Hero {
             case 2:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         
@@ -74,7 +74,7 @@ public class Radea extends Hero {
             case 3:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         Increased DEF by 30 for 4 turns!
                         """,
@@ -85,7 +85,7 @@ public class Radea extends Hero {
             case 4:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         
@@ -100,7 +100,7 @@ public class Radea extends Hero {
             case 5:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         
@@ -115,7 +115,7 @@ public class Radea extends Hero {
             default:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         """,

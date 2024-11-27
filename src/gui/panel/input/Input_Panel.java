@@ -22,7 +22,7 @@ public class Input_Panel extends Panel implements ActionListener {
         textField.addActionListener(this);
         textField.setBackground(Color.black);
         textField.setForeground(new Color(0x00FF35));
-        textField.setFont(new Font("MV Boli", Font.PLAIN,30));
+        textField.setFont(new Font("Jetbrains Mono", Font.PLAIN,20));
         textField.setCaretColor(Color.green);
 
         this.add(textField, BorderLayout.CENTER);

@@ -26,9 +26,9 @@ public class Blessing {
         switch (stat){
             case "DODGE":
             case "CRIT":
-                return name + " -> Increases " + stat + " by 0." + value + ".";
+                return name + " ──> Increases " + stat + " by 0." + value + ".";
             default:
-                return name + " -> Increases " + stat + " by " + value + ".";
+                return name + " ──> Increases " + stat + " by " + value + ".";
         }
     }
 

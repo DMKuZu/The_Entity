@@ -13,15 +13,26 @@ public class Credits extends Scene {
 
     @Override
     protected String displayText_Display() {
-        return "The Entity\n" +
-                "\n" +
-                "Developed by:\n" +
-                "> John Winston W. Tabada\n" +
-                "> Aaron Rey A. Jacalan\n" +
-                "> Lovely Shane P. Ong\n" +
-                "> Ruhmer Jairus Espina\n" +
-                "\n" +
-                "> BACK";
+        return """
+                \n\n\n
+                       ███        ▄█    █▄       ▄████████         ▄████████ ███▄▄▄▄       ███      ▄█      ███     ▄██   ▄  \s
+                   ▀█████████▄   ███    ███     ███    ███        ███    ███ ███▀▀▀██▄ ▀█████████▄ ███  ▀█████████▄ ███   ██▄\s
+                      ▀███▀▀██   ███    ███     ███    █▀         ███    █▀  ███   ███    ▀███▀▀██ ███▌    ▀███▀▀██ ███▄▄▄███\s
+                       ███   ▀  ▄███▄▄▄▄███▄▄  ▄███▄▄▄           ▄███▄▄▄     ███   ███     ███   ▀ ███▌     ███   ▀ ▀▀▀▀▀▀███\s
+                       ███     ▀▀███▀▀▀▀███▀  ▀▀███▀▀▀          ▀▀███▀▀▀     ███   ███     ███     ███▌     ███     ▄██   ███\s
+                       ███       ███    ███     ███    █▄         ███    █▄  ███   ███     ███     ███      ███     ███   ███\s
+                       ███       ███    ███     ███    ███        ███    ███ ███   ███     ███     ███      ███     ███   ███\s
+                      ▄████▀     ███    █▀      ██████████        ██████████  ▀█   █▀     ▄████▀   █▀      ▄████▀    ▀█████▀ \s
+                                                                                                                          \s
+                \n\n\n\n
+                \t\t\t\t\t\t DEVELOPED BY: \n
+                \t\t\t\t\t    John Winston W. Tabada \n
+                \t\t\t\t\t     Aaron Rey A. Jacalan \n
+                \t\t\t\t\t     Lovely Shane P. Ong \n
+                \t\t\t\t\t     Ruhmer Jairus Espina \n
+                \n
+                \t\t\t\t\t\t     BACK
+                """;
     }
 
     protected String displayText_Choice() {

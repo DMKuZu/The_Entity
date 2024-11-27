@@ -30,15 +30,15 @@ public class Zipau extends Hero {
     public String skillDesc() {
         return String.format(
                 """
-                > %s  ->  Deals damage and has unlimited uses.
+                >> %s\t\t──>\tDeals damage and has unlimited uses.
                 
-                > %s  ->  Deals damage and applies EMPOWER to self for 2 turns.       -> %d | %d
+                >> %s\t\t──>\tDeals damage and applies EMPOWER to self for 2 turns.\t──>\t%d | %d
                 
-                > %s  ->  Applies ENSHROUD to self for 4 turns.                       -> %d | %d
+                >> %s\t\t──>\tApplies ENSHROUD to self for 4 turns.                \t──>\t %d | %d
                 
-                > %s  ->  Deals damage and applies SHARPEN to self for 3 turns.       -> %d | %d
+                >> %s\t\t──>\tDeals damage and applies SHARPEN to self for 3 turns.\t──>\t %d | %d
 
-                > %s  ->  Deals damage and applies FRAIL to enemy for 3 turns.        -> %d | %d
+                >> %s\t\t──>\tDeals damage and applies FRAIL to enemy for 3 turns. \t──>\t %d | %d
                 """,
                 SKILLS.get(0).getName(),
                 SKILLS.get(1).getName(),getCURR_USES(2),getTOTAL_USES(2),
@@ -58,7 +58,7 @@ public class Zipau extends Hero {
             case 2:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         
@@ -72,7 +72,7 @@ public class Zipau extends Hero {
             case 3:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         Increased DODGE by 10 for 4 turns!
                         """,
@@ -83,7 +83,7 @@ public class Zipau extends Hero {
             case 4:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         
@@ -97,7 +97,7 @@ public class Zipau extends Hero {
             case 5:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         
@@ -112,7 +112,7 @@ public class Zipau extends Hero {
             default:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         """,

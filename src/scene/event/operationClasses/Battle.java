@@ -60,12 +60,12 @@ public class Battle extends Scene {
         return String.format(
                 """
                 %s
-                HP: %d | %d
+                HP\t: %d | %d
                 
                 
                 
                 %s
-                HP: %d | %d
+                HP\t: %d | %d
                 
                 %s""",
                 ENEMY.getNAME(),

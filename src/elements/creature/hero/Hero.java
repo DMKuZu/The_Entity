@@ -169,11 +169,11 @@ public abstract class Hero extends Creature implements Hero_Skills {
     public String statDesc(){
         return String.format(
                 """
-                HP    : %d | %d
-                ATK   : %d -> %d
-                DEF   : %d -> %d
-                DODGE : %d%% -> %d%%
-                CRIT  : %d%% -> %d%%
+                HP\t: %d | %d
+                ATK\t: %d -> %d
+                DEF\t: %d -> %d
+                DODGE\t: %d%% -> %d%%
+                CRIT\t: %d%% -> %d%%
                 """,
                 CURRSTATS.getHP(), STATS.getHP(),
                 STATS.getATK(), CURRSTATS.getATK(),
@@ -209,7 +209,7 @@ public abstract class Hero extends Creature implements Hero_Skills {
     public String blessingDesc() {
         StringBuilder description = new StringBuilder();
         for (Blessing blessing : BLESSING) {
-            description.append(String.format("%s\n", blessing.toString()));
+            description.append(String.format(">> %s\n", blessing.toString()));
         }
         return description.toString();
     }

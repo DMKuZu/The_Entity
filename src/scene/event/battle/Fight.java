@@ -21,20 +21,22 @@ public abstract class Fight extends Event {
         return String.format(
                 """
                 %s
-                HP: %d | %d
+                HP\t: %d | %d
                 
                 
                 
                 %s
                 %s
                 
-                SKILLS
+                \t  ───────────────────────────────────  SKILLS DESCRIPTION  ───────────────────────────────────
+                
+                
                 %s
                 
-                FAVORS
-                %s
                 
-                BLESSINGS
+                \t ──────────────────────────────────  BLESSINGS DESCRIPTION  ──────────────────────────────────
+                
+                
                 %s
                 """,
                 ENEMY.getNAME(),
@@ -42,7 +44,7 @@ public abstract class Fight extends Event {
                 HERO.getNAME(),
                 HERO.statDesc(),
                 HERO.skillDesc(),
-                HERO.getFAVOR().favorDesc(),
+                //HERO.getFAVOR().favorDesc(),
                 HERO.blessingDesc()
         );
     }
@@ -52,23 +54,23 @@ public abstract class Fight extends Event {
                 """
                 Type the number of your command!
                 
-                SKILLS
+                SKILLS:
                 %s
                 
-                FAVORS
+                FAVORS:
                 %s
                 
-                
-                
-                Your Status:
+                %s'S STATUS:
                 %s
                 
-                Enemy Status:
+                %s'S STATUS:
                 %s
                 """,
                 HERO.chooseSkill(),
                 HERO.getFAVOR().choiceFavorDesc(),
+                HERO.getNAME().toUpperCase(),
                 HERO.statusDisplay(),
+                ENEMY.getNAME().toUpperCase(),
                 ENEMY.statusDisplay()
         );
     }

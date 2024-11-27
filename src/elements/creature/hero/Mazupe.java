@@ -30,15 +30,15 @@ public class Mazupe extends Hero {
     public String skillDesc() {
         return String.format(
                 """
-                > %s  ->  Deals damage and has unlimited uses.
+                >> %s\t\t──>\tDeals damage and has unlimited uses.
                 
-                > %s  ->  Deals damage and applies FRAIL to enemy for 3 turns.  -> %d | %d
+                >> %s\t──>\tDeals damage and applies FRAIL to enemy for 3 turns.\t──>\t%d │ %d
                 
-                > %s  ->  Applies EMPOWER to self for 6 turns.                  -> %d | %d
+                >> %s\t\t──>\tApplies EMPOWER to self for 6 turns.              \t──>\t%d │ %d
                 
-                > %s  ->  Applies REGEN to self for 2 turns.                    -> %d | %d
+                >> %s\t\t──>\tApplies REGEN to self for 2 turns.                \t──>\t%d │ %d
 
-                > %s  ->  Deals damage and applies STUN to enemy for 1 turn.    -> %d | %d
+                >> %s\t\t──>\tDeals damage and applies STUN to enemy for 1 turn.\t──>\t %d │ %d
                 """,
                 SKILLS.get(0).getName(),
                 SKILLS.get(1).getName(),getCURR_USES(2),getTOTAL_USES(2),
@@ -58,7 +58,7 @@ public class Mazupe extends Hero {
             case 2:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         
@@ -73,7 +73,7 @@ public class Mazupe extends Hero {
             case 3:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         Increased ATK by 20 for 6 turns!
                         """,
@@ -84,7 +84,7 @@ public class Mazupe extends Hero {
             case 4:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         Regenerate 10 HP for 2 turns!
                         """,
@@ -95,7 +95,7 @@ public class Mazupe extends Hero {
             case 5:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         
@@ -110,7 +110,7 @@ public class Mazupe extends Hero {
             default:
                 msg = String.format(
                         """
-                        %s used %s!
+                        %s uses Skill: %s!
                         
                         %sDealt %d damage!
                         """,

@@ -15,27 +15,31 @@ public class _10_Trance extends Event {
     }
 
     protected String displayText_Display(){
-        return String.format("""
-        A fog of uncertainty clouds your mind. The path ahead, once clear,
-        now seems shrouded in mist. A sense of weariness settles over you,
-        a heavy weight on your shoulders. 
+        return String.format(
+        """                
+        A fog of uncertainty descends, thick and impenetrable. Your mind, once a beacon of clarity, now trembles at the edges of comprehension. The path ahead twists like a serpent through landscapes of shadows and half-remembered dreams.
+                
+        Weariness seeps into your bones—an exhaustion that transcends physical fatigue. Your shoulders bend under an invisible burden of unspoken memories and forgotten promises.
+                
+        The chill begins as a whisper at your spine, a cold breath that defies temperature. Your consciousness is pulled into a trance so deep it feels like falling through infinite layers of reality.
+                
+        An ancient voice emerges from within: 'Remember your purpose,' it intones. 'The essence you've collected is the lifeblood of your destiny.'
+                
+        A vision erupts—a cosmic tapestry of luminescent energy. Countless threads weave intricate patterns, and amid this vast design, you recognize yourself: a single, integral thread in an incomprehensible pattern.
+                
+                
+        Two paths crystallize:
+                
+        1. Offer the Essence: Surrender to The Being, completing a cycle older than time.
         
-        Suddenly, a chilling sensation grips your soul.
-        You're pulled into a trance, a captive of an unseen force.
-        A voice, ancient and powerful, echoes within your mind. 
+        2. Resist and Awaken: Break free, forging a unique trajectory against the cosmic current.
+                
+        The cosmic tapestry awaits your decision, each thread holding its breath in anticipation.
+                
+        Now, what will you choose?
         
-        'Remember your purpose', it commands. 
-        'The essence you've collected fuels your destiny.'
         
-        A vision flashes before your eyes: a cosmic tapestry, intricate and vast. 
-        You are a mere thread, a part of a grand design. 
-        A sense of urgency returns, a renewed drive to fulfill your mission.
-        
-        Will you offer the essence to The Being?
-        or
-        Will you wake up and continue along your path?
-        
-        Your current Favor Inventory:
+        [ YOUR CURRENT FAVOR INVENTORY ] :
         %s
         """
         , HERO.getFAVOR().favorDesc()
@@ -48,7 +52,7 @@ public class _10_Trance extends Event {
 
         return String.format("""
         You have %d essence and %d | 3 Favors.
-
+        
         > 1 : Offer     -> 1 essence for 1 favor
         > 2 : Continue  -> Next encounter
         """,essence,favorSize);
