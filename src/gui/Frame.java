@@ -19,7 +19,8 @@ public class Frame extends JFrame {
         this.setTitle("The Entity");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new GridBagLayout());
-        this.setMinimumSize(new Dimension(1366,768));
+        this.setResizable(false);
+        this.setMinimumSize(new Dimension(1500,800));
         this.setLocationRelativeTo(null);
 
         GridBagConstraints gbc = new GridBagConstraints();

@@ -30,10 +30,10 @@ public class Favor implements List_of_Favors{
     @Override
     public String toString(){
         return switch (stat) {
-            case "DODGE", "CRIT" -> name + "  ──> Increases " + stat + " by 0." + value + " while in battle.";
+            case "DODGE", "CRIT" -> name + " ──> Increases " + stat + " by 0." + value + " for the duration of the battle.";
             case "USES" -> name + " ──> Increases current skills uses by " + value + ".";
             case "HP" -> name + " ──> Replenishes HP by " + value + ".";
-            default -> name + " ──> Increases " + stat + " by " + value + " while in battle.";
+            default -> name + " ──> Increases " + stat + " by " + value + " for the duration of the battle.";
         };
     }
 }

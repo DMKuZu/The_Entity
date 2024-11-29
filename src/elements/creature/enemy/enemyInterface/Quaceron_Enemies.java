@@ -23,9 +23,10 @@ public interface Quaceron_Enemies {
     );
 
     List<Skills> QuaSkills = Arrays.asList(
-            new Skills("Skill 1",20,0,NONE),
-            new Skills("Skill 2",25,0,EMPOWER),
-            new Skills("Skill 3",0,0,FORTIFY),
-            new Skills("Skill 4",40,0,REGEN)
+            new Skills("Crushing Blow", 18, 0, NONE),
+            new Skills("Abyssal Might", 24, 0, EMPOWER),
+            new Skills("Iron Bastion", 0, 0, FORTIFY),
+            new Skills("Vital Surge", 37, 0, REGEN)
     );
 }
+

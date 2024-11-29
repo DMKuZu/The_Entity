@@ -17,26 +17,22 @@ public class _10_Trance extends Event {
     protected String displayText_Display(){
         return String.format(
         """                
-        A fog of uncertainty descends, thick and impenetrable. Your mind, once a beacon of clarity, now trembles at the edges of comprehension. The path ahead twists like a serpent through landscapes of shadows and half-remembered dreams.
-                
-        Weariness seeps into your bones—an exhaustion that transcends physical fatigue. Your shoulders bend under an invisible burden of unspoken memories and forgotten promises.
-                
-        The chill begins as a whisper at your spine, a cold breath that defies temperature. Your consciousness is pulled into a trance so deep it feels like falling through infinite layers of reality.
-                
-        An ancient voice emerges from within: 'Remember your purpose,' it intones. 'The essence you've collected is the lifeblood of your destiny.'
-                
-        A vision erupts—a cosmic tapestry of luminescent energy. Countless threads weave intricate patterns, and amid this vast design, you recognize yourself: a single, integral thread in an incomprehensible pattern.
-                
-                
-        Two paths crystallize:
-                
-        1. Offer the Essence: Surrender to The Being, completing a cycle older than time.
+        As the enemy collapses, the world dissolves. A dull hum rises in your ears, and your vision blurs. Before you can comprehend what's happening, your body grows weightless, as if ethereal hands are drawing you away from reality. The battlefield melts into a vast, cosmic canvas—a swirling expanse of stars, shifting hues, and infinite darkness.
         
-        2. Resist and Awaken: Break free, forging a unique trajectory against the cosmic current.
-                
-        The cosmic tapestry awaits your decision, each thread holding its breath in anticipation.
-                
-        Now, what will you choose?
+        A disembodied voice emerges from the void: "You have crossed a threshold beyond mortal understanding. The essence you carry resonates with an ancient power, yet it simultaneously constrains you."
+        
+        The cosmic darkness churns, birthing ephemeral shapes that refuse to solidify—gossamer wings dissolving into mist, shadowy hands stretching and contracting, a face composed entirely of light. The presence feels simultaneously infinite and incomprehensible, a being that defies complete perception.
+        
+        "This power belongs to no single entity," the voice declares. "I am here to illuminate its true cost."
+        
+        You look down. A faint orb hovers above your palm, pulsing with an unexpected warmth and an intricate, almost musical rhythm.
+        
+        "You stand at a critical juncture," the voice whispers, its tone undulating like a spectral breeze. "Surrender this essence to me, and I will grant you a temporary boon—a fleeting fragment of my power. Alternatively, decline, and continue your journey unenhanced. Remember: every choice is a key that locks as much as it opens."
+        
+        The luminescence fades. The cosmic landscape grows darker, more hushed.
+        
+        "What will you choose?"
+        
         
         
         [ YOUR CURRENT FAVOR INVENTORY ] :
@@ -51,10 +47,16 @@ public class _10_Trance extends Event {
         int favorSize = HERO.getFAVOR().getFavorSize();
 
         return String.format("""
-        You have %d essence and %d | 3 Favors.
+        You Currently Have:\n
+        ──> %d Essence
+        ──> %d | 3 Favors
         
-        > 1 : Offer     -> 1 essence for 1 favor
-        > 2 : Continue  -> Next encounter
+        
+        
+        
+        What will you choose:\n
+        > 1 : OFFER 1 ESSENCE
+        > 2 : CONTINUE JOURNEY
         """,essence,favorSize);
     }
 

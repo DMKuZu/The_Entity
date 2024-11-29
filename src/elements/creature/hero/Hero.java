@@ -119,7 +119,7 @@ public abstract class Hero extends Creature implements Hero_Skills {
             CURR_USES.set(skillNum-1, uses -1);
         }
         if(!isAHit) {
-            return NAME + "'s skill missed!";
+            return "\n\n\n" + NAME + "'s skill missed!";
         }
 
         boolean[] isCrit = new boolean[1];
@@ -162,7 +162,7 @@ public abstract class Hero extends Creature implements Hero_Skills {
                 break;
         }
 
-        return "Used " + used.getName();
+        return "\n\n\n" + "Used " + used.getName();
     }
 
 
@@ -190,9 +190,9 @@ public abstract class Hero extends Creature implements Hero_Skills {
         for (Skills skill : SKILLS) {
             i++;
             if(i == 1){
-                description.append(String.format("> %s\n", skill.getName()));
+                description.append(String.format(">> %s\n", skill.getName()));
             }
-            else description.append(String.format("> %s  ->  %d | %d\n", skill.getName(),getCURR_USES(i),getTOTAL_USES(i)));
+            else description.append(String.format(">> %s  ──>  %d | %d\n", skill.getName(),getCURR_USES(i),getTOTAL_USES(i)));
         }
         return description.toString();
     }

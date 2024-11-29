@@ -22,10 +22,10 @@ public interface Azrueian_Enemies {
     );
 
     List<Skills> AzrSkills = Arrays.asList(
-            new Skills("Skill 1",20,0,NONE),
-            new Skills("Skill 2",25,0,WEAKEN),
-            new Skills("Skill 3",0,0,SHARPEN),
-            new Skills("Skill 4",40,0,FRAIL)
+            new Skills("Wind Shear", 17, 0, NONE),
+            new Skills("Temporal Strike", 24, 0, WEAKEN),
+            new Skills("Edge of Precision", 0, 0, SHARPEN),
+            new Skills("Blade Flurry", 36, 0, FRAIL)
     );
 
 }

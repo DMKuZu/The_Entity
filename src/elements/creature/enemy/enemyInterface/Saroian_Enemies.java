@@ -24,11 +24,10 @@ public interface Saroian_Enemies {
 
 
     List<Skills> SarSkills = Arrays.asList(
-            new Skills("Skill 1",20,0,NONE),
-            new Skills("Skill 2",25,0,FRAIL),
-            new Skills("Skill 3",0,0,ENSHROUD),
-            new Skills("Skill 4",40,0,INFLICTION)
+            new Skills("Void Strike", 16, 0, NONE),
+            new Skills("Soul Fracture", 23, 0, FRAIL),
+            new Skills("Shroud of Shadows", 0, 0, ENSHROUD),
+            new Skills("Cursed Infliction", 35, 0, INFLICTION)
     );
-
 
 }

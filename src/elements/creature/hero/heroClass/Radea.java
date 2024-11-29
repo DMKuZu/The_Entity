@@ -1,14 +1,12 @@
-package elements.creature.hero;
+package elements.creature.hero.heroClass;
 
 import elements.creature.Creature;
+import elements.creature.hero.Hero;
 import elements.creature.value.Effects;
 import elements.creature.value.Skills;
 import elements.creature.value.Stats;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-
-import static elements.creature.value.Effects.*;
 
 public class Radea extends Hero {
 
@@ -59,6 +57,8 @@ public class Radea extends Hero {
             case 2:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -74,6 +74,8 @@ public class Radea extends Hero {
             case 3:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         Increased DEF by 30 for 4 turns!
@@ -85,6 +87,8 @@ public class Radea extends Hero {
             case 4:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -100,6 +104,8 @@ public class Radea extends Hero {
             case 5:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -115,6 +121,8 @@ public class Radea extends Hero {
             default:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!

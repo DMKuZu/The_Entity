@@ -63,6 +63,7 @@ public abstract class Fight extends Event {
                 %s'S STATUS:
                 %s
                 
+                
                 %s'S STATUS:
                 %s
                 """,

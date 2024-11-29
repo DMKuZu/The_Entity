@@ -36,7 +36,7 @@ public class Credits extends Scene {
     }
 
     protected String displayText_Choice() {
-        return "Press ENTER or type the command.";
+        return "Type BACK to return to the Main Menu.";
     }
 
 

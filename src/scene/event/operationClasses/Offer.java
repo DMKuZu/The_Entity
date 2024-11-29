@@ -38,18 +38,26 @@ public class Offer extends Scene {
     }
 
     public void exchange(){
-        MSGdisplay = """
-              You have 3 | 3 Favors from The Being!
+        MSGchoice = """
+              You Currently Have:\n
+              ──> 3 | 3 Favors [FULL]
+              
+              
               
               Will you exchange a favor for a new one?
+              
+              >> 1 : EXCHANGE FAVOR 1
+              >> 2 : EXCHANGE FAVOR 2
+              >> 3 : EXCHANGE FAVOR 3
+              
+              >> 4 : GO BACK
               """;
 
-        MSGchoice = String.format("""
-              Choose the number of the favor that you want to exchange:
+        MSGdisplay = String.format("""
+              Here is your current Favor Pool:
+              
               
               %s
-              
-              > 4 : Back
               """,
                 HERO.getFAVOR().swapFavorDesc()
         );
@@ -62,18 +70,17 @@ public class Offer extends Scene {
         MSGdisplay = String.format("""
               You have exchanged a favor from The Being!
               
-              %s
+              New Favor:
+              >> %s
               """,
                 msg
         );
 
-        MSGchoice = "Press ENTER to continue;";
+        MSGchoice = "Press ENTER to continue";
 
         hasObtained = true;
         displayText();
     }
-
-
 
     protected String displayText_Display() {
         return MSGdisplay;

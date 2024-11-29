@@ -9,6 +9,8 @@ public class Menu extends Scene {
 
     public Menu(Game GAME){
         super(GAME);
+        GAME.resetEncounter();
+        GAME.resetWorld();
     }
 
     // naa sa Scene na class kay tungod aning exit, napugos ug hard code

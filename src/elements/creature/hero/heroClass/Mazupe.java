@@ -1,14 +1,12 @@
-package elements.creature.hero;
+package elements.creature.hero.heroClass;
 
 import elements.creature.Creature;
+import elements.creature.hero.Hero;
 import elements.creature.value.Effects;
 import elements.creature.value.Skills;
 import elements.creature.value.Stats;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-
-import static elements.creature.value.Effects.*;
 
 public class Mazupe extends Hero {
 
@@ -58,6 +56,8 @@ public class Mazupe extends Hero {
             case 2:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -73,6 +73,8 @@ public class Mazupe extends Hero {
             case 3:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         Increased ATK by 20 for 6 turns!
@@ -84,6 +86,8 @@ public class Mazupe extends Hero {
             case 4:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         Regenerate 10 HP for 2 turns!
@@ -95,6 +99,8 @@ public class Mazupe extends Hero {
             case 5:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -110,6 +116,8 @@ public class Mazupe extends Hero {
             default:
                 msg = String.format(
                         """
+                        
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!

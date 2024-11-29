@@ -1,9 +1,9 @@
 package scene.menu;
 
-import elements.creature.hero.Mazupe;
-import elements.creature.hero.Radea;
-import elements.creature.hero.Supa;
-import elements.creature.hero.Zipau;
+import elements.creature.hero.heroClass.Mazupe;
+import elements.creature.hero.heroClass.Radea;
+import elements.creature.hero.heroClass.Supa;
+import elements.creature.hero.heroClass.Zipau;
 import game.Game;
 import scene.Scene;
 

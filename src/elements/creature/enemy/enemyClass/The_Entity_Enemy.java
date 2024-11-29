@@ -14,7 +14,7 @@ import static elements.creature.value.Effects.*;
 public class The_Entity_Enemy extends Enemy {
 
     public The_Entity_Enemy(Hero hero){
-        super(hero,1.3,2.4,0.7,0.06,0.05);
+        super(hero,1.2,2.4,0.4,0.06,0.05);
 
         NAME = "The Entity";
         SKILLS = new ArrayList<>(Arrays.asList(
@@ -36,6 +36,7 @@ public class The_Entity_Enemy extends Enemy {
             case 2:
                 msg = String.format(
                         """
+                        \n\n
                         %s used %s!
                         
                         %sDealt %d damage!
@@ -51,6 +52,7 @@ public class The_Entity_Enemy extends Enemy {
             case 3:
                 msg = String.format(
                         """
+                        \n\n
                         %s used %s!
                         
                         %sDealt %d damage!
@@ -65,6 +67,7 @@ public class The_Entity_Enemy extends Enemy {
             case 4:
                 msg = String.format(
                         """
+                        \n\n
                         %s used %s!
 
                         Decreased %s's ATK by 30 for 2 turns!
@@ -77,6 +80,7 @@ public class The_Entity_Enemy extends Enemy {
             case 5:
                 msg = String.format(
                         """
+                        \n\n
                         %s used %s!
                         
                         %sDealt %d damage!
@@ -92,6 +96,7 @@ public class The_Entity_Enemy extends Enemy {
             default:
                 msg = String.format(
                         """
+                        \n\n
                         %s used %s!
                         
                         %sDealt %d damage!

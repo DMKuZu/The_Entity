@@ -71,7 +71,7 @@ public abstract class Creature {
     public String statusDisplay(){
         StringBuilder description = new StringBuilder();
         for (Status status : STATUS) {
-            description.append(String.format("> %s",status.toString()));
+            description.append(String.format(">> %s",status.toString()));
         }
         return description.toString();
     }

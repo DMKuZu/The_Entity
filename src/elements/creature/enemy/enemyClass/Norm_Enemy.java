@@ -13,7 +13,7 @@ public class Norm_Enemy extends Enemy {
     private final int currWorld;
 
     public Norm_Enemy(Hero hero, int currWorld, int currEncounter){
-        super(hero,0.7,2.0,0.4,0.03,0.02);
+        super(hero,0.7,2.0,0.15,0.03,0.02);
         this.currWorld = currWorld;
 
         SKILLS = new ArrayList<>(3);
@@ -166,6 +166,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -181,6 +182,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased CRIT by 20 for 2 turns!
@@ -192,6 +194,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -206,6 +209,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -220,6 +224,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased DEF by 20 for 2 turns!
@@ -231,6 +236,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -246,6 +252,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -261,6 +268,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased DODGE by 10 for 3 turns!
@@ -272,6 +280,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -290,6 +299,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -305,6 +315,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased DODGE by 10 for 3 turns!
@@ -316,6 +327,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -330,6 +342,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -345,6 +358,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased CRIT by 20 for 2 turns!
@@ -356,6 +370,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -371,6 +386,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -385,6 +401,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased DEF by 20 for 2 turns!
@@ -396,6 +413,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -414,6 +432,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -428,6 +447,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased DEF by 20 for 2 turns!
@@ -439,6 +459,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -453,6 +474,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -468,6 +490,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased DODGE by 10 for 3 turns!
@@ -479,6 +502,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -494,6 +518,7 @@ public class Norm_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -509,6 +534,7 @@ public class Norm_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         Increased CRIT by 20 for 2 turns!
@@ -520,6 +546,7 @@ public class Norm_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
+                                        \n\n
                                         %s used %s!
                                         
                                         %sDealt %d damage!

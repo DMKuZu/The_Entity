@@ -18,8 +18,8 @@ public class Choice_Panel extends Display{
         gbc.insets = new Insets(10,10,10,10);
 
         setPreferredSize(new Dimension(250,0));
-        display.setFont(new Font("Jetbrains Mono", Font.PLAIN, 15));
-        display.setForeground(new Color(0x34FF59));
+        display.setFont(new Font("Monospaced", Font.PLAIN, 15));
+        display.setForeground(new Color(0x009aff));
     }
 
     // Method to append text to the display

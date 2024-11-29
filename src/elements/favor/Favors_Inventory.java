@@ -39,7 +39,7 @@ public class Favors_Inventory {
         StringBuilder description = new StringBuilder();
         int i = 1;
         for (Favor favor : favor_List) {
-            description.append(String.format("%d : %s\n\n", i++,favor.toString()));
+            description.append(String.format(">> %d : %s\n\n", i++,favor.toString()));
         }
         return description.toString();
     }
@@ -48,7 +48,7 @@ public class Favors_Inventory {
         StringBuilder description = new StringBuilder();
         int i = 6;
         for (Favor favor : favor_List) {
-            description.append(String.format("%d : %s\n\n", i++,favor.toString()));
+            description.append(String.format(">> %d : %s\n\n", i++,favor.toString()));
         }
         return description.toString();
     }

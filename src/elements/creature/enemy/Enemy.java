@@ -36,7 +36,7 @@ public abstract class Enemy extends Creature implements Azrueian_Enemies, Saroia
     protected String useSkill(int skillNum) {
         boolean isAHit = CALC.hit_chance(HERO.getCURRSTATS().getDODGE());
         if(!isAHit){
-            return NAME + "'s skill missed!";
+            return "\n\n" + NAME + "'s skill missed!";
         }
 
         boolean[] isCrit = new boolean[1];

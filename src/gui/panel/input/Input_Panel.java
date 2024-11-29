@@ -1,15 +1,13 @@
 package gui.panel.input;
 
+import elements.creature.hero.heroClass.Supa;
 import game.Game;
-import game.WhichScene;
 import gui.panel.Panel;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import static game.WhichScene.THE_ENTITY;
 
 public class Input_Panel extends Panel implements ActionListener {
     private final JTextField textField;
@@ -48,6 +46,9 @@ public class Input_Panel extends Panel implements ActionListener {
         }
 
         if(input.equals("exit this")) System.exit(0);
+
+        if(input.equals("the entity")) new Game(new Supa());
+
 
         textField.setText("");
     }
