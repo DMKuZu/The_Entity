@@ -14,17 +14,6 @@ public class Atlas extends Scene {
     @Override
     protected String displayText_Display() {
         return """
-                The Entity   \t- Antagonist
-                The Beings\t\t- Hero's source of power
-                Erotoma\t\t- World name
-                Factions of Erotoma:
-                    - Saroia
-                    - Quacero
-                    - Azrue
-                Azsaqroqua \t\t- Center city of Erotoma
-                Radea\t\t- Saroian alchemist
-                Mazupe \t\t- Quaceron explorer
-                Zipau \t\t- Azrueian researcher
                 
                  ───────────────────────────────────────────────  CHARACTERS  ───────────────────────────────────────────────\n
                 

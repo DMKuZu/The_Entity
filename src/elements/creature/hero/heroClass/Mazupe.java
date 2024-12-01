@@ -13,6 +13,7 @@ public class Mazupe extends Hero {
     public Mazupe(){
         super();
         this.NAME = "Mazupe";
+
         this.STATS = new Stats(200,20,25,0.02,0.06);
         this.CURRSTATS = new Stats(200,20,25,0.02,0.06);
         this.SKILLS= new ArrayList<>(Mazupe_Skills);
@@ -58,6 +59,7 @@ public class Mazupe extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -75,6 +77,7 @@ public class Mazupe extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         Increased ATK by 20 for 6 turns!
@@ -88,6 +91,7 @@ public class Mazupe extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         Regenerate 10 HP for 2 turns!
@@ -99,6 +103,7 @@ public class Mazupe extends Hero {
             case 5:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!
@@ -116,6 +121,7 @@ public class Mazupe extends Hero {
             default:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!

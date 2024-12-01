@@ -59,6 +59,7 @@ public class Radea extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -76,6 +77,7 @@ public class Radea extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         Increased DEF by 30 for 4 turns!
@@ -87,6 +89,7 @@ public class Radea extends Hero {
             case 4:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!
@@ -106,6 +109,7 @@ public class Radea extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -121,6 +125,7 @@ public class Radea extends Hero {
             default:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!

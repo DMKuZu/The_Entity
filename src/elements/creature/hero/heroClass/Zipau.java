@@ -58,6 +58,7 @@ public class Zipau extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -74,6 +75,7 @@ public class Zipau extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         Increased DODGE by 10 for 4 turns!
@@ -85,6 +87,7 @@ public class Zipau extends Hero {
             case 4:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!
@@ -103,6 +106,7 @@ public class Zipau extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         %sDealt %d damage!
@@ -118,6 +122,7 @@ public class Zipau extends Hero {
             default:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!

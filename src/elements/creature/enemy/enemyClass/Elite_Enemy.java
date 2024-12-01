@@ -118,7 +118,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -134,7 +136,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased CRIT by 20 for 2 turns!
@@ -146,7 +150,9 @@ public class Elite_Enemy extends Enemy {
                             case 4:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -162,7 +168,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -177,7 +185,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -192,7 +202,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased DEF by 20 for 2 turns!
@@ -204,7 +216,9 @@ public class Elite_Enemy extends Enemy {
                             case 4:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Regenerate 10 HP for 3 turns!
@@ -216,7 +230,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -232,7 +248,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -248,7 +266,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased DODGE by 10 for 3 turns!
@@ -260,7 +280,9 @@ public class Elite_Enemy extends Enemy {
                             case 4:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -276,7 +298,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -295,7 +319,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -311,7 +337,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased DODGE by 10 for 3 turns!
@@ -323,7 +351,9 @@ public class Elite_Enemy extends Enemy {
                             case 4:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -339,7 +369,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -354,7 +386,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -370,7 +404,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased CRIT by 20 for 2 turns!
@@ -382,7 +418,9 @@ public class Elite_Enemy extends Enemy {
                             case 4:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -398,7 +436,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -414,7 +454,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -429,7 +471,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased DEF by 20 for 2 turns!
@@ -441,7 +485,9 @@ public class Elite_Enemy extends Enemy {
                             case 4:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Regenerate 10 HP for 3 turns!
@@ -453,7 +499,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -472,7 +520,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -487,7 +537,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased DEF by 20 for 2 turns!
@@ -499,7 +551,9 @@ public class Elite_Enemy extends Enemy {
                             case 4:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Regenerate 10 HP for 3 turns!
@@ -511,7 +565,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                       
+                                       
+                                       
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -526,7 +582,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -542,7 +600,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased DODGE by 10 for 3 turns!
@@ -554,7 +614,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -570,7 +632,9 @@ public class Elite_Enemy extends Enemy {
                             case 2:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -586,7 +650,9 @@ public class Elite_Enemy extends Enemy {
                             case 3:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         Increased CRIT by 20 for 2 turns!
@@ -598,7 +664,9 @@ public class Elite_Enemy extends Enemy {
                             case 4:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!
@@ -614,7 +682,9 @@ public class Elite_Enemy extends Enemy {
                             default:
                                 msg = String.format(
                                         """
-                                        \n\n
+                                        
+                                        
+                                        
                                         %s used %s!
                                         
                                         %sDealt %d damage!

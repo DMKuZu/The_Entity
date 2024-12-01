@@ -47,14 +47,14 @@ public class _10_Trance extends Event {
         int favorSize = HERO.getFAVOR().getFavorSize();
 
         return String.format("""
-        You Currently Have:\n
+        You Currently Have:
         ──> %d Essence
         ──> %d | 3 Favors
         
+        You can swap favors once your inventory is full.
         
         
-        
-        What will you choose:\n
+        What will you choose:
         > 1 : OFFER 1 ESSENCE
         > 2 : CONTINUE JOURNEY
         """,essence,favorSize);

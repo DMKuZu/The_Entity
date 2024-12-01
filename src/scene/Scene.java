@@ -36,13 +36,20 @@ public abstract class Scene implements InputListener {
 
 
 
-                                                                    1. START
 
-                                                                    2. ATLAS
 
-                                                                    3. CREDITS
 
-                                                                    4. QUIT
+
+
+
+
+                                                                  1. START
+
+                                                                  2. ATLAS
+
+                                                                  3. CREDITS
+
+                                                                  4. QUIT
                 """;
     }
 

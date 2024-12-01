@@ -4,15 +4,181 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58e45557-0459-4819-ae87-c805723bb70c" name="Changes" comment="Gotta throw exceptions in use_pot in pot_inv">
+    <list default="true" id="58e45557-0459-4819-ae87-c805723bb70c" name="Changes" comment="this is finally finsihed product">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculate/Skill_Damage_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculate/Skill_Damage_Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/enemy/Current_Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/enemy/Current_Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/hero/Chosen_Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/hero/Chosen_Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/hero/Radea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/hero/Radea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/potion/Potions_Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/potion/Potions_Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Command_Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Command_Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Prompt_Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Prompt_Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity33/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity33/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity33/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity33/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity33/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity33/Activity33.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity33/Activity33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity33/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/Notes/OOP_Finals_Credits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/Notes/OOP_Finals_Descriptions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/Notes/OOP_Finals_Help" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/Notes/OOP_Finals_JacalanNotes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/Notes/OOP_Finals_Keypoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/Notes/OOP_Finals_Prompts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/Notes/OOP_Finals_Storyline" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/calculator/Skill_Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/blessing/Blessing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/blessing/Blessing_Gacha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/blessing/List_of_Blessings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/Azrueian_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/Boss_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/Current_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/Elite_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/List_of_Azrueian_Enemies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/List_of_Quaceron_Enemies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/List_of_Saroian_Enemies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/Norm_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/Quaceron_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/Saroian_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/enemy/The_Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/favor/Favor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/favor/Favors_Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/favor/List_of_Favors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/hero/Chosen_Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/hero/List_of_Characters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/hero/mazupe/Mazupe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/hero/radea/Radea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/hero/supaidolsirkhai/Supa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/hero/zipau/Zipau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/stat/Stats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/status/List_of_Effects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/status/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/status/Status_Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/value/Skills.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/elements/value/Stats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/game/Game_Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/game/Input_Processor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/game/List_of_Commands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/game/List_of_Texts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backup/src/game/Prompt_Display.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_OOP_Finals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_Practice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_Practice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_Practice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_Practice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_Practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_Practice/GUI_Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_Practice/src/SinglePanelGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Finals_F4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/Test Game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/src/Game/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/src/Scene/Scene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/src/Scene/Scene1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/src/Scene/Scene2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/src/Scene/Scene3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Game/src/Scene/Scene4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kent/Crystal-of-JAVA-v1278365" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/Notes/OOP_Finals_Credits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/Notes/OOP_Finals_Descriptions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/Notes/OOP_Finals_Help" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/Notes/OOP_Finals_JacalanNotes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/Notes/OOP_Finals_Keypoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/Notes/OOP_Finals_Prompts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/Notes/OOP_Finals_Storyline" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/revision.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/calculator/Skill_Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/blessing/Blessing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/blessing/Blessing_Gacha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/blessing/List_of_Blessings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/Creature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/Hero_Skills.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/enemy/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/enemy/enemyClass/Boss_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/enemy/enemyClass/Elite_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/enemy/enemyClass/Norm_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/enemy/enemyClass/The_Entity_Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/enemy/enemyInterface/Azrueian_Enemies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/enemy/enemyInterface/Quaceron_Enemies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/enemy/enemyInterface/Saroian_Enemies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/hero/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/hero/Mazupe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/hero/Radea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/hero/Supa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/hero/Zipau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/value/Effects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/value/Skills.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/value/Stats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/creature/value/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/favor/Favor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/favor/Favors_Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/elements/favor/List_of_Favors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/game/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/game/SceneFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/game/WhichScene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/gui/Frame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/gui/panel/Panel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/gui/panel/display/Choice_Panel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/gui/panel/display/Display.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/gui/panel/display/Display_Panel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/gui/panel/input/InputListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/gui/panel/input/Input_Panel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/Scene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/_0_World_Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/_11_Scenario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/_12_Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/_7_Rest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/_9_World_End.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/Fight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/_1_Norm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/_2_Norm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/_3_Elite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/_4_Norm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/_5_Norm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/_69_The_Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/_6_Elite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/battle/_8_Boss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/offer/_10_Trance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/operationClasses/Battle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/event/operationClasses/Offer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/menu/Atlas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/menu/Choose_Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/menu/Credits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/menu/Exit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision/src/scene/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/enemy/enemyClass/Boss_Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/enemy/enemyClass/Boss_Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/enemy/enemyClass/Elite_Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/enemy/enemyClass/Elite_Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/enemy/enemyClass/Norm_Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/enemy/enemyClass/Norm_Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/enemy/enemyClass/The_Entity_Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/enemy/enemyClass/The_Entity_Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/hero/heroClass/Mazupe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/hero/heroClass/Mazupe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/hero/heroClass/Radea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/hero/heroClass/Radea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/hero/heroClass/Supa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/hero/heroClass/Supa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/creature/hero/heroClass/Zipau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/creature/hero/heroClass/Zipau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/panel/display/Choice_Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/panel/display/Choice_Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/panel/display/Display_Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/panel/display/Display_Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/event/_0_World_Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/event/_0_World_Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/event/_11_Scenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/event/_11_Scenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/event/_9_World_End.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/event/_9_World_End.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/event/battle/Fight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/event/battle/Fight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/event/offer/_10_Trance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/event/offer/_10_Trance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/event/operationClasses/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/event/operationClasses/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/menu/Atlas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/menu/Atlas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/menu/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/menu/Credits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +194,13 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/master" />
+    <option name="BRANCH" value="origin/main" />
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_VERIFY" />
+        <option value="ALLOW_UNRELATED_HISTORIES" />
+      </set>
+    </option>
   </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="main" />
@@ -54,7 +226,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/DMKuZu/OOP_Finals_F4.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/DMKuZu/GUI_OOP_FINALS.git&quot;,
     &quot;accountId&quot;: &quot;72cd583b-8663-4616-a952-b0cd81a54fd0&quot;
   }
 }</component>
@@ -76,14 +248,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.The_Entity.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;DMKuZu&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kuzu/IdeaProjects/OOP_Finals_F4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kuzu/intellij-workspace/CSIT227_FINAL_PROJECT&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -91,8 +264,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="game.Main" />
+    <configuration name="The_Entity" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Launcher" />
       <module name="OOP_Finals_F4" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +279,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.The_Entity" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729592011799</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="this is finally finsihed product">
+      <option name="closed" value="true" />
+      <created>1732839980309</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732839980309</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +434,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="DMKuZu" />
+                        <option value="origin/finalnajud" />
                       </list>
                     </value>
                   </entry>
@@ -278,7 +459,8 @@
     <MESSAGE value="gotta throw exceptions for potion" />
     <MESSAGE value="Merge remote-tracking branch 'origin/DMKuZu' into DMKuZu&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/game/Command_Runner.java" />
     <MESSAGE value="Gotta throw exceptions in use_pot in pot_inv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gotta throw exceptions in use_pot in pot_inv" />
+    <MESSAGE value="this is finally finsihed product" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is finally finsihed product" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

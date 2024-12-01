@@ -18,7 +18,7 @@ public class Choice_Panel extends Display{
         gbc.insets = new Insets(10,10,10,10);
 
         setPreferredSize(new Dimension(250,0));
-        display.setFont(new Font("Monospaced", Font.PLAIN, 15));
+        display.setFont(new Font("Monospaced", Font.BOLD, 18));
         display.setForeground(new Color(0x009aff));
     }
 

@@ -20,18 +20,20 @@ public abstract class Fight extends Event {
     protected String displayText_Display(){
         return String.format(
                 """
-                %s
+                >> %s
                 HP\t: %d | %d
                 
                 
                 
-                %s
+                >> %s
                 %s
                 
                 \t  ───────────────────────────────────  SKILLS DESCRIPTION  ───────────────────────────────────
                 
                 
                 %s
+                
+                
                 
                 
                 \t ──────────────────────────────────  BLESSINGS DESCRIPTION  ──────────────────────────────────

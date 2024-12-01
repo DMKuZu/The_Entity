@@ -22,7 +22,7 @@ public class Display_Panel extends Display {
         gbc.fill = GridBagConstraints.BOTH; // Fill both horizontal and vertical space
         gbc.insets = new Insets(10,10,10,10);
 
-        display.setFont(new Font("Monospaced", Font.PLAIN, 13));
+        display.setFont(new Font("Monospaced", Font.BOLD, 16));
         display.setForeground(new Color(0xFFFFFF));
         setPreferredSize(new Dimension(500,0));
         setLayout(new GridBagLayout());

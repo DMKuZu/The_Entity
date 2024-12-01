@@ -12,7 +12,7 @@ public class Supa extends Hero {
 
     public Supa(){
         super();
-        this.NAME = "SupaIdolSkibidiGyattSirKhaiCenat";
+        this.NAME = "The Man, The Myth, The Legend, Sir Khai Gumonan ";
         this.STATS = new Stats(69420,69,-420,-1.0,0.5);
         this.CURRSTATS = new Stats(69420,69,-420,-1.0,0.5);
         this.SKILLS = new ArrayList<>(Supa_Skills);
@@ -61,6 +61,7 @@ public class Supa extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         Increased CRIT by 50 for 10 turns!
@@ -72,6 +73,7 @@ public class Supa extends Hero {
             case 3:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!
@@ -88,6 +90,7 @@ public class Supa extends Hero {
                         """
                         
                         
+                        
                         %s uses Skill: %s!
                         
                         Regenerate 100 HP for 10 turns!
@@ -99,6 +102,7 @@ public class Supa extends Hero {
             case 5:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!
@@ -116,6 +120,7 @@ public class Supa extends Hero {
             default:
                 msg = String.format(
                         """
+                        
                         
                         
                         %s uses Skill: %s!

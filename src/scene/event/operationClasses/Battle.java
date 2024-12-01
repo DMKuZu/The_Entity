@@ -92,7 +92,7 @@ public class Battle extends Scene {
             }
             else{
                 if (ENEMY.isStunned()) {
-                    MSG = ENEMY.getNAME() + " is stunned.";
+                    MSG = "\n\n\n" + ENEMY.getNAME() + " is stunned.";
                     displayText();
                 }
                 else{
@@ -110,7 +110,7 @@ public class Battle extends Scene {
             }
             else{
                 if (HERO.isStunned()) {
-                    MSG = HERO.getNAME() + " is stunned.";
+                    MSG = "\n\n\n" + HERO.getNAME() + " is stunned.";
                     displayText();
                     enemyAttacked = false;
                 }

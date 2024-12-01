@@ -280,7 +280,7 @@ public class _11_Scenario extends Event {
                                         
                                         
                                         >> [ YOU HAVE FOUND A SAFE SPOT ]
-                                        """, HERO.getNAME()
+                                        """, HERO.getNAME(), HERO.getNAME(), HERO.getNAME()
                                 );
                             case 7:
                                 return String.format(
@@ -395,7 +395,7 @@ public class _11_Scenario extends Event {
                                         
                                         
                                         >> [ YOU HAVE FOUND A SAFE SPOT ]
-                                        """, HERO.getNAME()
+                                        """, HERO.getNAME(), HERO.getNAME(), HERO.getNAME()
                                 );
                             case 7:
                                 return String.format("""

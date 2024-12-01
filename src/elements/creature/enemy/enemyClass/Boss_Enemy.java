@@ -85,7 +85,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 2:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -101,7 +103,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 3:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 Increased DEF by 30 for 4 turns!
@@ -113,7 +117,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 4:
                         msg = String.format(
                                 """
-                                \n\n
+                               
+                               
+                               
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -129,7 +135,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 5:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -145,7 +153,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     default:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -160,7 +170,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 2:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -176,7 +188,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 3:
                         msg = String.format(
                                 """
-                                \n\n
+                              
+                              
+                              
                                 %s used %s!
                                 
                                 Increased ATK by 20 for 6 turns!
@@ -188,7 +202,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 4:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 Regenerate 10 HP for 2 turns!
@@ -200,7 +216,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 5:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -216,7 +234,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     default:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -232,7 +252,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 2:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -247,7 +269,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 3:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 Increased DODGE by 10 for 4 turns!
@@ -259,7 +283,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 4:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -274,7 +300,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     case 5:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!
@@ -290,7 +318,9 @@ public class Boss_Enemy extends Enemy implements Hero_Skills {
                     default:
                         msg = String.format(
                                 """
-                                \n\n
+                                
+                                
+                                
                                 %s used %s!
                                 
                                 %sDealt %d damage!

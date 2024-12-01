@@ -36,7 +36,9 @@ public class The_Entity_Enemy extends Enemy {
             case 2:
                 msg = String.format(
                         """
-                        \n\n
+                        
+                        
+                        
                         %s used %s!
                         
                         %sDealt %d damage!
@@ -52,7 +54,9 @@ public class The_Entity_Enemy extends Enemy {
             case 3:
                 msg = String.format(
                         """
-                        \n\n
+                        
+                        
+                        
                         %s used %s!
                         
                         %sDealt %d damage!
@@ -67,7 +71,9 @@ public class The_Entity_Enemy extends Enemy {
             case 4:
                 msg = String.format(
                         """
-                        \n\n
+                        
+                        
+                        
                         %s used %s!
 
                         Decreased %s's ATK by 30 for 2 turns!
@@ -80,7 +86,9 @@ public class The_Entity_Enemy extends Enemy {
             case 5:
                 msg = String.format(
                         """
-                        \n\n
+                        
+                        
+                        
                         %s used %s!
                         
                         %sDealt %d damage!
@@ -96,7 +104,9 @@ public class The_Entity_Enemy extends Enemy {
             default:
                 msg = String.format(
                         """
-                        \n\n
+                        
+                        
+                        
                         %s used %s!
                         
                         %sDealt %d damage!

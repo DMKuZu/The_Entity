@@ -20,7 +20,7 @@ public class Frame extends JFrame {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new GridBagLayout());
         this.setResizable(false);
-        this.setMinimumSize(new Dimension(1500,800));
+        this.setMinimumSize(new Dimension(1800,1000));
         this.setLocationRelativeTo(null);
 
         GridBagConstraints gbc = new GridBagConstraints();
